@@ -23,7 +23,7 @@
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
             "required": true
         },
-        "pwtoken": {
+        "x_access_token": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏",
             "required": true
         }
