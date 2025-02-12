@@ -154,7 +154,7 @@ async def account_login(bot: Client, m: Message):
              url =  "https://mon-key-3612a8154345.herokuapp.com/get_keys?url=https://cpvod.testbook.com/" + id + "/playlist.m3u8"
               
             elif "tencdn.classplusapp" in url:
-                x-access-token = os.getenv('x_access_token')
+                x-access-token == os.getenv('x_access_token')
                 headers = {
                 'Host': 'api.classplusapp.com', 
                 'x-access-token': 'x-access-token'
@@ -169,7 +169,7 @@ async def account_login(bot: Client, m: Message):
                 url = response.json()['url']	
 
             elif 'videos.classplusapp' in url:
-                x-access-token = os.getenv('x_access_token')
+                x-access-token == os.getenv('x_access_token')
                 headers = {
                 'Host': 'api.classplusapp.com', 
                 'x-access-token': 'x-access-token'
@@ -184,7 +184,7 @@ async def account_login(bot: Client, m: Message):
                 url = response.json()['url']
 
             if 'media-cdn.classplus' in url:
-                x-access-token = os.getenv('x_access_token')
+                x-access-token == os.getenv('x_access_token')
                 headers = {
                 'Host': 'api.classplusapp.com', 
                 'x-access-token': 'x-access-token'
