@@ -154,10 +154,9 @@ async def account_login(bot: Client, m: Message):
              url =  "https://mon-key-3612a8154345.herokuapp.com/get_keys?url=https://cpvod.testbook.com/" + id + "/playlist.m3u8"
               
             elif "tencdn.classplusapp" in url:
-                x-access-token == os.getenv('x_access_token')
                 headers = {
                 'Host': 'api.classplusapp.com', 
-                'x-access-token': 'x-access-token'
+                'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTA1MzQ2MDg2LCJvcmdJZCI6MzU4OTY5LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTYyODkzMTI2NjIiLCJuYW1lIjoiQW5hbnQgSmhhIiwiZW1haWwiOm51bGwsImlzSW50ZXJuYXRpb25hbCI6MCwiZGVmYXVsdExhbmd1YWdlIjoiRU4iLCJjb3VudHJ5Q29kZSI6IklOIiwiY291bnRyeUlTTyI6IjkxIiwidGltZXpvbmUiOiJHTVQrNTozMCIsImlzRGl5Ijp0cnVlLCJvcmdDb2RlIjoicXFhamsiLCJpc0RpeVN1YmFkbWluIjowLCJmaW5nZXJwcmludElkIjoiYzgyMTI2NGRlYmxrOGZiM2UyYTYwYmRiZDRlZjcyYTNiOSIsImlhdCI6MTczOTM0NDY0MCwiZXhwIjoxNzM5OTQ5NDQwfQ.sjQBjCcQSLZzKDDZujrfcwYjGzyPzcC_q1QBdMgJaMAbqK1zcKfOILbugozOI_ZX', 
                 'user-agent': 'Mobile-Android', 
                 'app-version': '1.4.37.1', 
                 'api-version': '18', 
@@ -169,10 +168,9 @@ async def account_login(bot: Client, m: Message):
                 url = response.json()['url']	
 
             elif 'videos.classplusapp' in url:
-                x-access-token == os.getenv('x_access_token')
                 headers = {
                 'Host': 'api.classplusapp.com', 
-                'x-access-token': 'x-access-token'
+                'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTA1MzQ2MDg2LCJvcmdJZCI6MzU4OTY5LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTYyODkzMTI2NjIiLCJuYW1lIjoiQW5hbnQgSmhhIiwiZW1haWwiOm51bGwsImlzSW50ZXJuYXRpb25hbCI6MCwiZGVmYXVsdExhbmd1YWdlIjoiRU4iLCJjb3VudHJ5Q29kZSI6IklOIiwiY291bnRyeUlTTyI6IjkxIiwidGltZXpvbmUiOiJHTVQrNTozMCIsImlzRGl5Ijp0cnVlLCJvcmdDb2RlIjoicXFhamsiLCJpc0RpeVN1YmFkbWluIjowLCJmaW5nZXJwcmludElkIjoiYzgyMTI2NGRlYmxrOGZiM2UyYTYwYmRiZDRlZjcyYTNiOSIsImlhdCI6MTczOTM0NDY0MCwiZXhwIjoxNzM5OTQ5NDQwfQ.sjQBjCcQSLZzKDDZujrfcwYjGzyPzcC_q1QBdMgJaMAbqK1zcKfOILbugozOI_ZX', 
                 'user-agent': 'Mobile-Android', 
                 'app-version': '1.4.37.1', 
                 'api-version': '18', 
@@ -184,10 +182,9 @@ async def account_login(bot: Client, m: Message):
                 url = response.json()['url']
 
             if 'media-cdn.classplus' in url:
-                x-access-token == os.getenv('x_access_token')
                 headers = {
                 'Host': 'api.classplusapp.com', 
-                'x-access-token': 'x-access-token'
+                'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTA1MzQ2MDg2LCJvcmdJZCI6MzU4OTY5LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTYyODkzMTI2NjIiLCJuYW1lIjoiQW5hbnQgSmhhIiwiZW1haWwiOm51bGwsImlzSW50ZXJuYXRpb25hbCI6MCwiZGVmYXVsdExhbmd1YWdlIjoiRU4iLCJjb3VudHJ5Q29kZSI6IklOIiwiY291bnRyeUlTTyI6IjkxIiwidGltZXpvbmUiOiJHTVQrNTozMCIsImlzRGl5Ijp0cnVlLCJvcmdDb2RlIjoicXFhamsiLCJpc0RpeVN1YmFkbWluIjowLCJmaW5nZXJwcmludElkIjoiYzgyMTI2NGRlYmxrOGZiM2UyYTYwYmRiZDRlZjcyYTNiOSIsImlhdCI6MTczOTM0NDY0MCwiZXhwIjoxNzM5OTQ5NDQwfQ.sjQBjCcQSLZzKDDZujrfcwYjGzyPzcC_q1QBdMgJaMAbqK1zcKfOILbugozOI_ZX', 
                 'user-agent': 'Mobile-Android', 
                 'app-version': '1.4.37.1', 
                 'api-version': '18', 
@@ -201,7 +198,7 @@ async def account_login(bot: Client, m: Message):
             elif 'media-cdn-a.classplus' in url:
                 headers = {
                 'Host': 'api.classplusapp.com', 
-                'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE3MTgwNzk0LCJvcmdJZCI6NTEyODc2LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTk0NDQ3MDc4OTciLCJuYW1lIjoiU3JlZXJhbSIsImVtYWlsIjoic3JlZXJhbTIwMDJAeWFob28uY29tIiwiaXNJbnRlcm5hdGlvbmFsIjowLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFTiIsImNvdW50cnlDb2RlIjoiSU4iLCJjb3VudHJ5SVNPIjoiOTEiLCJ0aW1lem9uZSI6IkdNVCs1OjMwIiwiaXNEaXkiOnRydWUsIm9yZ0NvZGUiOiJndWR3eiIsImlzRGl5U3ViYWRtaW4iOjAsImZpbmdlcnByaW50SWQiOiJiNjVkY2NkZjg2NGE0MGUyZjQyZjQ4YTg2OWYzYzU3MSIsImlhdCI6MTczNjg3NzgyMywiZXhwIjoxNzM3NDgyNjIzfQ.1BNj1mWBGI9Oe1NbUuJ1mj9D3Raa3i0BF7ujg3XsalqfYUcfXqAl_DmTSR7QQrIS', 
+                'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTA1MzQ2MDg2LCJvcmdJZCI6MzU4OTY5LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTYyODkzMTI2NjIiLCJuYW1lIjoiQW5hbnQgSmhhIiwiZW1haWwiOm51bGwsImlzSW50ZXJuYXRpb25hbCI6MCwiZGVmYXVsdExhbmd1YWdlIjoiRU4iLCJjb3VudHJ5Q29kZSI6IklOIiwiY291bnRyeUlTTyI6IjkxIiwidGltZXpvbmUiOiJHTVQrNTozMCIsImlzRGl5Ijp0cnVlLCJvcmdDb2RlIjoicXFhamsiLCJpc0RpeVN1YmFkbWluIjowLCJmaW5nZXJwcmludElkIjoiYzgyMTI2NGRlYmxrOGZiM2UyYTYwYmRiZDRlZjcyYTNiOSIsImlhdCI6MTczOTM0NDY0MCwiZXhwIjoxNzM5OTQ5NDQwfQ.sjQBjCcQSLZzKDDZujrfcwYjGzyPzcC_q1QBdMgJaMAbqK1zcKfOILbugozOI_ZX', 
                 'user-agent': 'Mobile-Android', 
                 'app-version': '1.4.37.1', 
                 'api-version': '18', 
